@@ -1,0 +1,100 @@
+#footer{
+    
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    bottom: 0px;
+    right:0px;
+    background-color: rgb(3, 16, 89);
+    font: DM Sans;
+    font-weight: 400;
+    size: 24px;
+    line-height: 31.25px;
+    color: rgb(255,255,255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+#phone{
+    display: grid;
+    grid-template-columns: 40px 100px;
+    column-gap: 0px;
+    margin-left: 130px;
+}
+#logos{
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    width: 80px;
+
+}
+#fb{
+    height: 27.272727966308594px;
+    width: 12px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding-left: 130px;
+}
+#insta{
+    height: 25.99338722229004px;
+    width: 25.99338722229004px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding-left: 80px;
+
+}
+#twitter{
+    height: 23.992271423339844px;
+    width: 29px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding-left: 170px;
+}
+
+#email{
+    margin-right: 10px;
+}
+#contact{
+    margin-left: 10px;
+}
+#phone-icon{
+    padding-right: 0px;
+}
+
+#website{
+    display: flex;
+    flex-direction: row;
+    margin-left: 142px;
+}
+
+#mail{
+    margin-right: 8px;
+}
+
+#mail-address{
+    display:flex;
+    flex-direction: row;
+    width: 50px;
+    padding-left: 50px;
+}
+#email-us{
+    padding-right: 250px;
+}
+#input{
+    border-color: white;
+    color:  rgb(3, 16, 89);
+    height:25px;
+}
+#send-button{
+    font-family: DM Sans;
+    font-weight: 600;
+    height:32px;
+    color:rgb(3, 16, 89) ;
+    background-color: white;
+    border-color: rgb(3, 16, 89);
+    border-width: 0.5px;
+}
